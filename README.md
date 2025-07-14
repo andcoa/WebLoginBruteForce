@@ -15,7 +15,7 @@ Automate credential stuffing attacks against a web login form using Python, simu
 
 - **Python 3**: Core language used for scripting the attack logic.
 - **Requests**: Python HTTP library to submit POST login attempts.
-- **Linux CLI**: Environment for script execution and managing password files.
+- **Kali Linux CLI**: Environment for script execution and managing password files.
 
 ## Steps
 
