@@ -17,8 +17,6 @@ Automate credential stuffing attacks against a web login form using Python, simu
 - **Requests**: Python HTTP library to submit POST login attempts.
 - **Kali Linux CLI**: Environment for script execution and managing password files.
 
-⚠️ Note: This script is for educational and ethical penetration testing purposes only, and should not be used against any system without explicit authorization.
-
 ## Steps
 
 1. Define the target URL and list of usernames.
@@ -42,3 +40,5 @@ Valid credentials input:
 Script output on successful credentials match:
 
 <img width="935" height="259" alt="image" src="https://github.com/user-attachments/assets/1a086dea-2efa-4e41-8d69-c37c13637e6b" />
+
+⚠️ Note: This script is for educational and ethical penetration testing purposes only, and should not be used against any system without explicit authorization.
