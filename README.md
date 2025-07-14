@@ -17,6 +17,16 @@ Automate credential stuffing attacks against a web login form using Python, simu
 - **Requests**: Python HTTP library to submit POST login attempts.
 - **Linux CLI**: Environment for script execution and managing password files.
 
+## Steps
+
+1. Define the target URL and list of usernames.
+2. Read the top-100 password list from a file.
+3. Loop through each username.
+4. For each username, try every password by sending a POST request to the login form.
+5. Check if the response contains the success keyword (`"Welcome back"`).
+6. Print valid username-password combinations when found.
+7. Exit the script once a valid login is detected.
+
 <img width="1539" height="692" alt="image" src="https://github.com/user-attachments/assets/5f557136-1666-49e6-b8cc-ae0717087383" />
 
 Invalid credentials input:
