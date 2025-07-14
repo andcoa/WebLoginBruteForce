@@ -1,4 +1,21 @@
-# Web Login Brute Force
+# Web Login Brute Force Script
+
+## Objective  
+Automate credential stuffing attacks against a web login form using Python, simulating how attackers test combinations of common usernames and passwords against exposed or weak web applications.
+
+## Skills Learned
+
+- **Credential Stuffing Logic**: Implemented nested brute-force logic combining multiple usernames with a common password list.
+- **HTTP Request Crafting**: Used `requests.post()` to interact with a real login endpoint and check for successful logins.
+- **Response Pattern Matching**: Detected successful logins by searching for a specific string (`"Welcome back"`) in HTTP response content.
+- **Progress Logging**: Built real-time terminal output using `sys.stdout` to show which credentials were being tested.
+- **File & String Handling**: Parsed text files securely and handled encoding for web form compatibility.
+
+## Tools Used
+
+- **Python 3**: Core language used for scripting the attack logic.
+- **Requests**: Python HTTP library to submit POST login attempts.
+- **Linux CLI**: Environment for script execution and managing password files.
 
 <img width="1539" height="692" alt="image" src="https://github.com/user-attachments/assets/5f557136-1666-49e6-b8cc-ae0717087383" />
 
